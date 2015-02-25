@@ -1,0 +1,32 @@
+{
+    "name": "ammonkc/laravel-basket",
+    "description": "A Laravel 5 ServiceProvider for basket",
+    "license": "MIT",
+    "keywords": ["laravel", "php", "shopping", "cart", "basket", "money"],
+    "authors": [
+        {
+            "name": "Ammon Casey",
+            "email": "ammon@caseyohana.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "illuminate/support": "5.0.*"
+    },
+    "suggest": {
+        "illuminate/session": "Required to store the basket",
+        "illuminate/filesystem": "Required to store the basket"
+    },
+    "autoload": {
+        "psr-4": {
+            "Ammonkc\\Basket\\": "src/"
+        }
+    },
+    "repositories": [
+        {
+            "type": "git",
+            "url": "https://github.com/philipbrown/basket"
+        }
+    ],
+    "minimum-stability": "dev"
+}
